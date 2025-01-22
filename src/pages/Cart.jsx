@@ -4,7 +4,7 @@ import {
   addToCart,
   removeFromCart,
   updateQuantity,
-} from "../reduxConfig/store/reducer/cartSlice";
+} from "../reduxConfig/reducers/cartSlice";
 import { LuMinusCircle, LuPlusCircle } from "react-icons/lu";
 
 function Cart() {

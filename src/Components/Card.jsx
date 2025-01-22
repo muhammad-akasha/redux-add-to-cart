@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { addToCart } from "../reduxConfig/store/reducer/cartSlice";
-import { useDispatch, useSelector } from "react-redux";
+import React from "react";
+import { addToCart } from "../reduxConfig/reducers/cartSlice";
+import { useDispatch } from "react-redux";
 
 function Card({ title, image, description, item }) {
   const dispatch = useDispatch();
